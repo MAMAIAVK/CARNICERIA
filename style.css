@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(242, 224, 228);
+}
+
+h2 {
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    color: #720af1;
+    font-family: 'Courier New', Courier, monospace
+}
+
+footer {
+    display: flex;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#fachada-ternera {
+    display: flex;
+    align-items: flex-start;
+
+}
+
+#fachada-cerdo {
+    display: flex;
+    align-items: flex-start;
+}
+
+#fachada-pollo {
+    display: flex;
+    align-items: flex-start;
+
+
+}
+
+#contenedor-secciones {
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+img {
+    list-style-image: image(100px);
+
+}
