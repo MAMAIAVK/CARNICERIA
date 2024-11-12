@@ -18,25 +18,65 @@ footer {
     display: flex;
 }
 
+/*
 nav {
     display: flex;
     justify-content: space-between;
+}*/
+
+
+#escaparate {
+    justify-content: space-around;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
 }
 
-#fachada-ternera {
+#despiece {
+    justify-content: space-around;
     display: flex;
-    align-items: flex-start;
+    text-align: center;
+    flex-wrap: wrap;
+}
+/*
+#ternera {
+    display: flex;
+    align-content: center;
+    text-align: center;
+}*/
 
+#ternera{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    justify-content: space-around;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav div ul li {
+    display: flex;
+    margin: auto;
+    text-transform: uppercase;
+    background-color: rgba(231, 7, 164, 0.866);
+    color: rgba(15, 14, 14, 0.93);
+    padding: 10px;
+    border-radius: 7%;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #fachada-cerdo {
     display: flex;
-    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 #fachada-pollo {
     display: flex;
-    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
 
 
 }
