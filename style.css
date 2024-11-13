@@ -68,7 +68,7 @@ nav div ul li {
     display: flex;
     margin: auto;
     text-transform: uppercase;
-    background-color: rgba(231, 7, 164, 0.866);
+    background-color: rgba(200, 188, 54, 0.866);
     color: rgba(15, 14, 14, 0.93);
     padding: 10px;
     border-radius: 7%;
@@ -97,14 +97,23 @@ nav div ul li {
 
 
 #fachada-cerdo {
-    display: flex;
     justify-content: space-around;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+#despiecerdo {
+    justify-content: space-around;
+    display: flex;
+    text-align: center;
     flex-wrap: wrap;
 }
 
 #fachada-pollo {
     display: flex;
     justify-content: space-around;
+    text-align: center;
     flex-wrap: wrap;
 
 
