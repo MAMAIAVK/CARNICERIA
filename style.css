@@ -1,3 +1,4 @@
+
 body {
     background-color: rgb(242, 224, 228);
 }
@@ -51,8 +52,16 @@ nav {
     grid-template-columns: 3fr 3fr 3fr;
     justify-content: space-around;
 }
-
-
+#cerdo {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    justify-content: space-around;
+}
+#pollo {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    justify-content:space-around;
+}
 nav ul {
     margin: 0;
     padding: 0;
@@ -117,6 +126,12 @@ nav div ul li {
     flex-wrap: wrap;
 
 
+}
+#despollo {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
 }
 
 #contenedor-secciones {
