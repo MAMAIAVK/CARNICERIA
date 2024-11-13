@@ -38,6 +38,7 @@ nav {
     text-align: center;
     flex-wrap: wrap;
 }
+
 /*
 #ternera {
     display: flex;
@@ -45,14 +46,22 @@ nav {
     text-align: center;
 }*/
 
-#ternera{
+#ternera {
     display: grid;
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 3fr 3fr 3fr;
     justify-content: space-around;
 }
 
+
 nav ul {
+    margin: 0;
+    padding: 0;
     display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    gap: 20px 15px;
+    padding: 0 5% 0 5%;
+
 }
 
 nav div ul li {
@@ -66,6 +75,26 @@ nav div ul li {
     font-weight: 700;
     font-family: 'Courier New', Courier, monospace;
 }
+
+#contenedor-secciones article {
+
+    margin: auto;
+    border: 2px solid #210121;
+    border-radius: 10%;
+    justify-content: center;
+    text-align: center;
+    padding: auto;
+
+}
+
+#contenedor-secciones article:hover {
+    background-color: aquamarine;
+    padding: auto;
+    
+}
+
+
+
 
 #fachada-cerdo {
     display: flex;
