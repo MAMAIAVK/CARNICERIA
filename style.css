@@ -119,14 +119,7 @@ nav div ul li {
     flex-wrap: wrap;
 }
 
-#fachada-pollo {
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    flex-wrap: wrap;
 
-
-}
 #despollo {
     display: flex;
     justify-content: space-around;
@@ -139,7 +132,9 @@ nav div ul li {
     flex-direction: row;
 }
 
-img {
-    list-style-image: image(100px);
+article img {
+    /* list-style-image: image(100px); */
+    width: 130px;
+    height: 100px;
 
 }
